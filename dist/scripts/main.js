@@ -532,7 +532,6 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"3cYfC":[function(require,module,exports) {
-alert("Funcionou porra vai tomar no cu filha da puta do caralho");
 
 },{}]},["7age3","3cYfC"], "3cYfC", "parcelRequire50e1")
 
