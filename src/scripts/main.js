@@ -1,0 +1,1 @@
+alert("Funcionou porra vai tomar no cu filha da puta do caralho");
