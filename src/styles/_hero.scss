@@ -23,7 +23,7 @@
 
     &__text {
         margin-top: 36px;
-        margin-bottom: 64px;
+        margin-bottom: 20px;
         color: white;
         font-weight: 800;
         font-size: 32px;
@@ -37,9 +37,40 @@
         height: 150px;
     }
 
+    &__button {
+        color: white;
+        margin: 0 auto;
+        display: block;
+        background-color: transparent;
+        border-radius: 5%;
+        padding: 10px 15px;
+        border: 1 solid white;
+
+        &:hover {
+            color: black;
+            background-color: white;
+            transition: 1000ms;
+            cursor: pointer;
+        }
+
+    }
+
+    @media (max-width: 1024px) {
+        &__logo {
+            height: 100px;
+        }
+
+        &__text {
+            font-size: 24px;
+            line-height: 28px;
+            margin-top: 24px;
+            margin-bottom: 40px;
+        }
+    }
+
     @media (max-width: 640px) {
         &__logo {
-            height: 80;
+            height: 80px;
         }
 
         &__text {
@@ -49,5 +80,8 @@
             margin-bottom: 32px;
         }
     }
+
+    
+
 
 }
