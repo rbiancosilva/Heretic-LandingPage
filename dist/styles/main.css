@@ -83,6 +83,7 @@
 
 .sections {
   background-image: linear-gradient(186deg, #000, #525151);
+  padding-bottom: 20px;
 }
 
 .sections .section {
@@ -123,6 +124,7 @@
 .sections .section__item__right {
   color: #fff;
   margin-left: 40px;
+  padding: 32px 0;
   display: block;
 }
 
@@ -138,6 +140,10 @@
 }
 
 @media (width <= 1024px) {
+  .sections .section {
+    padding: 32px 0;
+  }
+
   .sections .section .container__left, .sections .section .container__right {
     display: block;
   }
